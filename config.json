@@ -1,0 +1,32 @@
+{
+  "connections":[
+    {
+      "name": "freenode",
+      "connection": {
+        "server": "chat.freenode.org",
+        "port": 6667,
+        "ssl": false,
+        "ignore_cert": true,
+        "password": ""
+      },
+      "nick": "Mach",
+      "backup": "Mach_",
+      "username": "mach",
+      "channels": [
+        "##mach"
+      ],
+      "disabled_commands": [],
+      "nickserv": {
+        "enabled": false,
+        "ns_password": "",
+        "ns_user": "",
+        "ns_name": "nickserv",
+        "ns_command": "IDENTIFY"
+      },
+      "permissions": {
+        "owner": "",
+        "operators":
+      }
+    }
+  ]
+}
